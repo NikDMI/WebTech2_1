@@ -7,7 +7,7 @@ public class ConsoleTable {
 	 * 
 	 * @param rows Number of table rows
 	 * @param columns Number of table columns
-	 * @param cellWidth Min ceil width in whitespaces
+	 * @param cellWidth Min cell width in whitespaces
 	 */
 	public ConsoleTable(int rows, int columns, int cellWidth) {
 		if(rows <= 0 || columns <= 0 || cellWidth <= 0) { 
